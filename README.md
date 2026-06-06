@@ -1,4 +1,4 @@
-# # 16S rRNA Microbiome Analysis
+# 16S rRNA Microbiome Analysis
 This repository contains R scripts and example figures from a 16S rRNA microbiome analysis project focused on soil- and plant-associated microbial communities. The workflow includes taxonomic visualization, alpha diversity analysis, beta diversity analysis, and predicted functional profiling using PICRUSt2 outputs.
 ## Project Overview
 
