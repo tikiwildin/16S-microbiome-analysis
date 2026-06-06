@@ -1,3 +1,23 @@
+# Script: plot_antmound_genus_barplot.R
+# Project: 16S rRNA Microbiome Analysis
+#
+# Purpose:
+#   This script reads mothur/Krona genus-level taxonomy files from
+#   ant mound microbiome samples, calculates genus-level relative
+#   abundance, and generates a stacked barplot showing dominant genera
+#   across native, R2A-cultured, and R5-cultured sample groups.
+# Input:
+#   - krona_files/
+#       Directory containing mothur/Krona tabular taxonomy files
+#       named in the format 0.03.<SampleID>.tabular
+#   - antmound_metadata.tsv
+#       Metadata table containing sample IDs and experimental groupings
+#
+# Output:
+#   - antmound_genus_stacked_barplot.png
+#   - antmound_genus_relative_abundance.tsv
+# Author: Atiq Bacus
+
 library(tidyverse)
 
 # -------------------------
