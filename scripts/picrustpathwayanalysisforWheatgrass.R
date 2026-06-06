@@ -1,8 +1,21 @@
-# =========================
-# PICRUSt2 pathway analysis
-# Wheatgrass dataset
-# Chronological sample order
-# =========================
+# Script: picrustanalysisforWheatgrass.R
+# Project: 16S rRNA Microbiome Analysis
+#
+# Purpose:
+#   This script analyzes predicted functional pathway profiles from
+#   PICRUSt2 for the wheatgrass microbiome dataset. 
+# Input:
+#   - path_abun_unstrat.tsv.gz
+#       Unstratified PICRUSt2 pathway abundance table
+#   - wheatgrass_metadata.tsv
+#       Metadata table containing sample IDs, conditions, and time points
+#
+# Output:
+#   - picrust2_wheatgrass_pca.png
+#   - picrust2_wheatgrass_heatmap_chronological.png
+#   - picrust2_wheatgrass_pathway_relative_abundance.tsv
+#   - picrust2_wheatgrass_pca_coordinates.tsv
+# Author: Atiq Bacus
 
 library(tidyverse)
 library(pheatmap)
