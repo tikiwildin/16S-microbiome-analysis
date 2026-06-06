@@ -1,3 +1,9 @@
+# Script: alpha_diversity_shannon_boxplot.R
+# Purpose: Generate Shannon diversity boxplots for 16S microbiome samples.
+# Input: Processed alpha diversity table and sample metadata.
+# Output: Shannon diversity boxplot saved as a PNG figure.
+# Author: Atiq Bacus
+
 library(ggplot2)
 library(dplyr)
 library(readr)
